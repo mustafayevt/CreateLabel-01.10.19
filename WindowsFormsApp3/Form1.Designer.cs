@@ -37,11 +37,9 @@
             this.ClientSize = new System.Drawing.Size(696, 350);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseClick);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
             this.ResumeLayout(false);
-
         }
 
         #endregion
